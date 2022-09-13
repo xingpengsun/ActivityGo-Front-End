@@ -1,0 +1,71 @@
+.detail-activity-container {
+  width: 557px;
+  border: solid 1px rgba(253, 108, 46, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: ease-in-out 100ms box-shadow;
+  background-color: #fff6f2;
+}
+
+.detail-activity-tophalf {
+  display: flex;
+  flex-direction: row;
+  padding-top: 21px;
+  padding-left: 24px;
+}
+
+.detail-activityData-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #862800;
+}
+
+.detail-activityData-info {
+  width: 292px;
+  height: 145px;
+  padding-top: 14px;
+  padding-left: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.detail-activityData-text {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #bf3900;
+}
+
+.detail-card-value-value {
+  font-weight: 400;
+  color: #bf3900;
+}
+
+.detail-activity-img {
+  object-fit: cover;
+  width: 197px;
+  height: 187px;
+}
+
+.detail-activityData-right {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.detail-activityData-title {
+  padding-bottom: 17px;
+  font-weight: 700;
+}
+
+.detail-activityData-description {
+  margin-top: 12px;
+  padding: 20px 24px;
+  height: 106px;
+  overflow-y: scroll;
+}
+
+.detail-activityData-button {
+  text-align: right;
+  margin: 20px;
+}

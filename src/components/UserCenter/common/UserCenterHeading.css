@@ -1,0 +1,23 @@
+.user-center-user-heading {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.user-center-page-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.username {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.avatar-img {
+  height: 46px;
+  width: 46px;
+  border-radius: 23px;
+  border: solid 3px white;
+  object-fit: cover;
+}

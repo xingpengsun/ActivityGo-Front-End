@@ -1,0 +1,32 @@
+.exercise-data {
+  min-width: 240px;
+  height: 150px;
+  padding: 20px 20px 10px 20px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  transition: ease-in-out 100ms box-shadow;
+}
+
+.exercise-data:hover {
+  box-shadow: 0 2px 6px rgba(107, 107, 107, 0.2);
+}
+
+.exercise-data-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #9fa2b4;
+}
+
+.exercise-data-content {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #252733;
+}
+
+.exercise-data-unit {
+  font-size: 1rem;
+  text-transform: uppercase;
+}

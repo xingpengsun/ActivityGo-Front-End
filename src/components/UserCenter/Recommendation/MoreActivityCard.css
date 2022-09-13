@@ -1,0 +1,85 @@
+.others-card {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #fd6c2e;
+  width: 1052px;
+  height: 90px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.others-card-background {
+  background-color: #fffcfb;
+  border: solid 1px rgba(253, 108, 46, 0.5);
+}
+
+.others-card:hover {
+  box-shadow: 0 3px 4px rgba(107, 107, 107, 0.2);
+  transform: scale(1);
+}
+
+.others-card-img {
+  object-fit: cover;
+  width: 158px;
+  height: 90px;
+}
+
+.others-card-text {
+  margin: 12px;
+  flex-grow: 1;
+}
+
+.others-card-text:hover {
+  cursor: pointer;
+}
+
+.others-card-text-title {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #862800;
+}
+
+.others-card-text-detail {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  color: #bf3900;
+}
+
+.others-card-start-date-icon {
+  margin-right: 4px;
+}
+
+.others-card-icon-group {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.others-card-size-place {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.delete-or-save {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.others-card-delete-icon {
+  margin-right: 20px;
+}
+
+.others-card-action-icon {
+  color: #fd6c2e;
+  transition: ease-in-out 200ms color;
+}
+
+.others-card-action-icon:hover {
+  color: #bf3900;
+  cursor: pointer;
+}

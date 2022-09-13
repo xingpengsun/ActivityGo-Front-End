@@ -1,0 +1,70 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 324px;
+  width: 204px;
+  max-width: 300px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0 2.8rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(107, 107, 107, 0.2);
+  transition: box-shadow 0.2s;
+}
+
+.advantage:hover {
+  box-shadow: 0 6px 8px rgba(107, 107, 107, 0.5);
+}
+
+.advantage-img-container {
+  position: relative;
+  width: 40%;
+  padding-top: 40%;
+  margin: 20px auto 10px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.advantage-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.advantage-img:hover {
+  transform: scale(1.1);
+}
+
+.advantage-text {
+  padding: 10px 20px;
+}
+
+.advantage-text-title {
+  height: 3rem;
+  overflow: hidden;
+  line-height: 1.2;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ff8c5a;
+  text-align: center;
+}
+
+.advantage-text-description {
+  overflow: hidden;
+  line-height: 1.2;
+  color: #ff8c5a;
+}

@@ -1,0 +1,59 @@
+.activity-data-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.measurements-container {
+  position: relative;
+  padding: 24px 0 0 24px;
+  margin: 40px 0;
+  background-color: white;
+  border: 1px solid #dfe0eb;
+  border-radius: 12px;
+}
+
+.measurements-header {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.body-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plot-placeholder {
+  width: 70%;
+  height: 380px;
+  border: solid 1px #dfe0eb;
+}
+
+.body-info-data {
+  height: 100%;
+  width: 30%;
+}
+
+.body-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #dfe0eb;
+  text-align: center;
+  transition: ease-in-out 100ms background-color;
+}
+
+.body-info-section:hover {
+  background-color: rgba(253, 108, 46, 0.1);
+}
+
+.body-info-title {
+  color: #9fa2b4;
+  font-size: 1rem;
+}
+
+.body-info-value {
+  font-weight: bold;
+  font-size: 1.4rem;
+}

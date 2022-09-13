@@ -1,0 +1,78 @@
+.giftcard-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 300px;
+  max-width: 330px;
+  height: 210px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out 100ms box-shadow;
+  overflow: hidden;
+}
+
+.giftcard-container:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.giftcard-img {
+  object-fit: cover;
+  width: 145px;
+  height: 100%;
+}
+
+.giftcard-right {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.giftcard-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #862800;
+}
+
+.giftcard-text {
+  color: #929399;
+}
+
+.giftcard-value-value {
+  font-weight: 600;
+  color: #862800;
+}
+
+.giftcard-description {
+  margin: 10px 0;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  height: 80px;
+  overflow-y: scroll;
+}
+
+.giftcard-point-action-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.giftcard-points {
+  height: 24px;
+  width: 64px;
+  background-color: #fff6f2;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+
+.giftcard-points-icon {
+  color: #fd6c2e;
+}
+
+.giftcard-points-value {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #862800;
+}

@@ -1,0 +1,51 @@
+.user-center-activity-list {
+  list-style-type: none;
+  padding: 0;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.user-center-activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 24px;
+  border-bottom: solid 1px #dfe0eb;
+}
+
+.user-center-activity-item-left-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.user-center-activity-text {
+  margin: 0 20px;
+}
+
+.user-center-activity-text:hover {
+  cursor: pointer;
+}
+
+.user-center-activity-image {
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.user-center-activity-name {
+  font-weight: 500;
+}
+
+.user-center-activity-description-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #929399;
+}
+
+.user-center-activity-value {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #bf3900;
+}

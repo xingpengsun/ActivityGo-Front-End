@@ -1,0 +1,17 @@
+.search-engine {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.ongoing-list {
+  display: flex;
+  padding: 10px 0;
+}
+
+.more-activity-container {
+  width: 1052px;
+  height: 387px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
